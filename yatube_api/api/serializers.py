@@ -45,12 +45,12 @@ class FollowSerializer(serializers.ModelSerializer):
     class Meta:
         fields = '__all__'
         model = Follow
-        validators = [
+        validators = (
             validators.UniqueTogetherValidator(
                 queryset=Follow.objects.all(),
                 fields=('following', 'user',)
-            )
-        ]
+            ),
+        )
 
 
 class GroupSerializer(serializers.ModelSerializer):
