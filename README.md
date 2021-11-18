@@ -20,7 +20,7 @@
 
 
 Как развернуть
-Склонируйте репозиторий: https://github.com/nurakhmetov-zhalgas/api_final_yatube.git.
+Склонируйте репозиторий: https://github.com/Lexxar91/api_final_yatube.git.
 С помощью инструкции создайте и активируйте виртуальное окружение.
 Установите зависимости: pip install -r requirements.txt.
 Примените миграции: python manage.py migrate.
