@@ -1,11 +1,15 @@
 from django.shortcuts import get_object_or_404
 from rest_framework import mixins, viewsets, filters
-from rest_framework.permissions import IsAuthenticated, IsAuthenticatedOrReadOnly
+from rest_framework.permissions import (IsAuthenticated,
+                                        IsAuthenticatedOrReadOnly)
 from rest_framework.pagination import LimitOffsetPagination
 
 from posts.models import Post, Group, User
 from .permissions import OwnerOrReadOnly
-from .serializers import FollowSerializer, GroupSerializer, PostSerializer, CommentSerializer
+from .serializers import (FollowSerializer,
+                          GroupSerializer,
+                          PostSerializer,
+                          CommentSerializer)
 
 
 class CusmomListViewSet(
