@@ -2,6 +2,13 @@
 
 Задачей учебного проекта являлось создание API для упрощенной версии блога "Yatube".
 
+### Стэк технологий:
+
+[![Python](https://img.shields.io/badge/-Python-464646?style=flat-square&logo=Python)](https://www.python.org/)
+[![Django](https://img.shields.io/badge/-Django-464646?style=flat-square&logo=Django)](https://www.djangoproject.com/)
+[![Django REST Framework](https://img.shields.io/badge/-Django%20REST%20Framework-464646?style=flat-square&logo=Django%20REST%20Framework)](https://www.django-rest-framework.org/)
+[![Simple-JWT](https://img.shields.io/badge/-JWT-464646?style=flat-square&logo=JWT)](https://jwt.io/)
+
 **Описание проекта**
 
 Социальная сеть Yatube это блог предназначенный для публикации личных записей. По желанию посты могут быть опубликованы в группах. Проект предоставляет возможность подписываться на авторов и оставлять комментарии к записям. Аутентификация пользователей осуществляется по JWT-токену.
